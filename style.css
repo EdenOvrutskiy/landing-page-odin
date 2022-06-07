@@ -104,7 +104,6 @@ a:active {
 }
 
 .illustration {
-    /*display: flex;*/
     margin: 12px;
     border: solid #3882F6;
     border-radius: 8px;
@@ -113,4 +112,26 @@ a:active {
 img {
     max-width: 100%; /*prevents images from breaking out of div*/
     max-height: 100%;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-credit {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+
 }
