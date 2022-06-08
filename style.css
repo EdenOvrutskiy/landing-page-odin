@@ -133,5 +133,40 @@ img {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
 
+.call-to-action {
+    display:flex;
+    justify-content: space-between;
+    padding: 8px 10%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    margin:  5% 10%;
+    padding: 5% 10%;
+}
+
+.action-header {
+    font-size: 20px;
+}
+
+
+#button2 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    margin-top: 12px;
+    border: solid white;
+    border-width: 2px;
+}
+
+.footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 2% 10%;
 }
